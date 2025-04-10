@@ -9,11 +9,11 @@ function App() {
   return (
     <Router>
       <div className="flex flex-col">
-        <Header></Header>
-        <NavBar></NavBar>
+        <Header />
+        <NavBar />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={ <Home /> } />
           </Routes>
         </main>
       </div>
