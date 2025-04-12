@@ -12,13 +12,13 @@ function Home() {
         <ScrollIcon></ScrollIcon>
       </div>
 
-      <div id="about" className="h-dvh bg-amber-100">
+      <div id="about" className="h-[calc(100vh-72px)] scroll-mt-18 bg-amber-100">
       </div>
 
-      <div id="experience" className="h-dvh bg-blue-200">
+      <div id="experience" className="h-[calc(100vh-72px)] scroll-mt-18 bg-blue-200">
       </div>
 
-      <div id="projects" className="h-dvh bg-amber-100">
+      <div id="projects" className="h-[calc(100vh-72px)] scroll-mt-18 bg-amber-100">
       </div>
 
       <div id="footer" className="pt-5 h-25 flex justify-end bg-blue-200">
