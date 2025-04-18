@@ -13,12 +13,18 @@ function Home() {
       </div>
 
       <div id="about" className="h-[calc(100vh-72px)] scroll-mt-18 bg-amber-100">
+        <div className="">
+          <h2 className="ml-40 mt-9 leading-none text-[40px] font-bold text-[#1A274B]">00. about me</h2>
+        </div>
       </div>
 
       <div id="experience" className="h-[calc(100vh-72px)] scroll-mt-18 bg-blue-200">
       </div>
 
       <div id="projects" className="h-[calc(100vh-72px)] scroll-mt-18 bg-amber-100">
+        <div className="">
+            <h2 className="ml-40 mt-9 leading-none text-[40px] font-bold text-[#1A274B]">02. projects</h2>
+        </div>
       </div>
 
       <div id="footer" className="pt-5 h-25 flex justify-end bg-blue-200">
