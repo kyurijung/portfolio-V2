@@ -132,7 +132,7 @@ function Home() {
             {/* Project 1 */}
             <div className="flex flex-row ml-48 mt-13 w-214 items-center justify-between">
               <div className="overflow-visible w-fit">
-                <div className="border-4 border-[#1A274B] w-75 h-fit -mr-3 -mb-3">
+                <div className="border-4 border-[#1A274B] w-60 h-fit -mr-3 -mb-3">
                   <img 
                     className="w-full relative right-3 bottom-3" 
                     src="/src/assets/images/project1.png" 
