@@ -1,9 +1,16 @@
 @import "tailwindcss";
 
-html {
-    scroll-behavior: smooth;
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        background-color: var(--color-background);
+    }
 }
 
-body {
-    background-color: #F2ECE7;
+@theme {
+    --color-background: #F2ECE7;
+    --color-primary: #1A274B;
+    --color-secondary: #A94D0F;
 }
