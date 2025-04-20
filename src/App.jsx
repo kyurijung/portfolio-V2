@@ -9,9 +9,7 @@ function App() {
     <div className="flex flex-col">
       <Header />
       <NavBar />
-      <main>
-          <Home />
-      </main>
+      <Home />
     </div>
   );
 }
