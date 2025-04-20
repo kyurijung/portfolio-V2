@@ -5,7 +5,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons"
 function Home() {
   return (
     <div className="ml-25 mt-18 flex flex-col">
-      <div id="titleSection" className="h-[calc(100vh-72px)]">
+      <div id="titleSection" className="h-screen">
         <div className="mt-[18%]">
           <h1 className="ml-[8%] leading-none text-[25px] font-mono font-bold text-[#1A274B]">Hi, my name is</h1>
           <h1 className="ml-[7.5%] leading-none text-[130px] font-extrabold text-[#1A274B]">Kyuri Jung.</h1>
