@@ -1,3 +1,5 @@
+import data from "/src/data/home";
+
 import ScrollIcon from "/src/components/ScrollIcon";
 
 function Home() {

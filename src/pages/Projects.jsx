@@ -1,3 +1,5 @@
+import data from "/src/data/projects";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from "@fortawesome/free-solid-svg-icons"
 

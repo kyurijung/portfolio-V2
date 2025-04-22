@@ -1,3 +1,5 @@
+import data from "/src/data/about-me";
+
 function AboutMe() {
   return (
     <div id="about" className="scroll-mt-18 bg-amber-100 pt-9 pb-13">

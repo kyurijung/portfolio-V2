@@ -1,3 +1,5 @@
+import data from "/src/data/experience";
+
 function Experience() {
   return (
     <div id="experience" className="scroll-mt-18 bg-blue-200 pt-9 pb-9">
@@ -6,7 +8,7 @@ function Experience() {
         <div>
           <div className="ml-48 mt-7">
             {/* Experience 1 */}
-            <h2 className="text-[25px] font-bold text-[#1A274B]">Warner Bros. Discovery</h2>
+            <h2 className="text-[25px] font-bold text-[#1A274B]">{data.experience[0].company}</h2>
             <div className="flex w-225 items-baseline justify-between">
               <h3 className="text-[20px] font-bold text-[#A94D0F]">Software Developer I</h3>
               <h3 className="text-[18px] font-medium text-[#1A274B]">January 2024 - Present</h3>
