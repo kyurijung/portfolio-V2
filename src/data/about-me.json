@@ -1,11 +1,11 @@
 {
-    "headers": {
-      "greeting": "Hi, my name is",
-      "name": "Kyuri Jung.",
-      "description": "Full-Stack Developer & Designer"
-    },
-    "footer": {
-        "text": "© 2025 kyurijung.github.io by Kyuri Jung",
-        "link": "https://github.com/kyurijung/kyurijung.github.io"
-    }
+  "headers": {
+    "greeting": "Hi, my name is",
+    "name": "Kyuri Jung.",
+    "description": "Full-Stack Developer & Designer"
+  },
+  "footer": {
+    "text": "© 2025 kyurijung.github.io by Kyuri Jung",
+    "link": "https://github.com/kyurijung/kyurijung.github.io"
   }
+}
