@@ -1,6 +1,6 @@
 import data from "/src/data/home";
 
-import ScrollIcon from "/src/components/ScrollIcon";
+import ScrollIcon from "/src/components/home/ScrollIcon";
 
 function Home() {
   const home = data.home
