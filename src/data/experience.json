@@ -1,0 +1,87 @@
+{
+    "experience": [
+        {
+            "company": "Warner Bros. Discovery",
+            "roles": [
+                {
+                    "title": "Software Developer I",
+                    "dates": "January 2024 - Present",
+                    "points": [
+                        {
+                            "description": "Optimized HBO Max app's accessibility and player controls by developing and refactoring the You.i One Engine's React Native and Swift API, boosting stability and performance by 30%"
+                        },
+                        {
+                            "description": "Automated acceptance testing prior to product deployment by implementing integration and unit tests, effectively reducing 40% of manual testing"
+                        },
+                        {
+                            "description": "Published documentation about new or upgraded features with specifications and guidelines, for 600+ engineers to reference during future development"
+                        }
+                    ]
+                },
+                {
+                    "title": "Software Developer",
+                    "dates": "May 2022 - August 2022",
+                    "points": [
+                        {
+                            "description": "Optimized HBO Max app's accessibility and player controls by developing and refactoring the You.i One Engine's React Native and Swift API, boosting stability and performance by 30%"
+                        },
+                        {
+                            "description": "Automated acceptance testing prior to product deployment by implementing integration and unit tests, effectively reducing 40% of manual testing"
+                        },
+                        {
+                            "description": "Published documentation about new or upgraded features with specifications and guidelines, for 600+ engineers to reference during future development"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Canada Energy Regulator",
+            "roles": [
+                {
+                    "title": "Web Content Developer",
+                    "dates": "January 2021 - April 2021",
+                    "points": [
+                        {
+                            "description": "Customized client-side web parts and their layouts for the organization's intranet by using SPFx, CSS, and third-party widgets, increasing site engagement for 200+ employees"
+                        },
+                        {
+                            "description": "Migrated content from the former site onto the renewed SharePoint platform by sorting and filtering relevant subjects, expediting transfer speeds by 2x"
+                        },
+                        {
+                            "description": "Hosted live tutorial sessions demonstrating the creating and editing of site pages, training 30+ web editors to adopt the new platform"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Google Developer Student Club",
+            "roles": [
+                {
+                    "title": "Lead Designer",
+                    "dates": "September 2021 - April 2022",
+                    "points": [
+                        {
+                            "description": "Produced graphics adhering to GDSC's brand theme by using Photoshop and Canva to generate templates and posts for social media, targeting students interested in tech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Technolgap",
+            "roles": [
+                {
+                    "title": "Student Mentor",
+                    "dates": "August 2020 - April 2021",
+                    "points": [
+                        {
+                            "description": "Mentored incoming women in Computer Science with supportive tutoring and valuable career insights, guiding them through a successful first year in the program"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

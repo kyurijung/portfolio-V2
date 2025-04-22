@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "title": "HeartWave",
+            "link": "https://github.com/kyurijung/heartwave",
+            "tech": [
+                "C++",
+                "Qt",
+                "SQL",
+                "Qt Creator"
+            ],
+            "description": "Developed a heart rate monitor software with Qt and SQL, integrating real-time biofeedback to measure, analyze, and display elaborate heart rate variability patterns"
+        },
+        {
+            "title": "OrderUp",
+            "link": "https://github.com/kyurijung/orderup",
+            "tech": [
+                "JavaScript",
+                "Node.js",
+                "HTML",
+                "CSS",
+                "MongoDB"
+            ],
+            "description": "Created a food ordering web app with JavaScript and HTML to execute user logins, display menus, and order items, alongside CSS to enhance UI designs"
+        },
+        {
+            "title": "EasyCart",
+            "link": "https://github.com/kyurijung/easycart",
+            "tech": [
+                "Java",
+                "JavaFX",
+                "Figma"
+            ],
+            "description": "Developed a desktop shopping cart app, using Java and JavaFX to implement menu displays, calculations, and item orders"
+        }
+    ]
+}

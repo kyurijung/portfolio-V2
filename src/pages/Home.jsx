@@ -115,7 +115,7 @@ function Home() {
           <div>
             {/* Experience 4 */}
             <div className="ml-48 mt-7">
-              <h2 className="text-[25px] font-bold text-[#1A274B]">Google Developer Student Club @CarletonU</h2>
+              <h2 className="text-[25px] font-bold text-[#1A274B]">Google Developer Student Club</h2>
               <div className="flex w-225 items-baseline justify-between">
                 <h3 className="text-[20px] font-bold text-[#A94D0F]">Lead Designer</h3>
                 <h3 className="text-[18px] font-medium text-[#1A274B]">September 2021 - April 2022</h3>

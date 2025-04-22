@@ -1,11 +1,4 @@
 {
-  "headers": {
-    "greeting": "Hi, my name is",
-    "name": "Kyuri Jung.",
-    "description": "Full-Stack Developer & Designer"
-  },
-  "footer": {
-    "text": "© 2025 kyurijung.github.io by Kyuri Jung",
-    "link": "https://github.com/kyurijung/kyurijung.github.io"
-  }
+    "career": "Back in 2019, I stumbled upon a UI design workshop as a curious graphic designer and fell into the fascinating world of web development. Fast-forward to today, I'm in my 4th year of a Computer Science degree at Carleton University and had the privilege of interning at Warner Bros. Discovery and Canada Energy Regulator. My interests have gravitated towards API and backend development, as reflected in my rewarding personal projects.",
+    "hobbies": "Beyond coding, I'm a culinary adventurer, avid podcast listener, and aspiring guitarist. Read more about my tech journey below, connect with me on LinkedIn, or check out my projects on GitHub :)"
 }
