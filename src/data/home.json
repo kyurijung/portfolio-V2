@@ -1,19 +1,21 @@
 {
     "header": {
+        "item1": "00. about me",
+        "item2": "01. experience",
+        "item3": "02. projects"
+    },
+    "navbar": {
+        "linkedin": "https://www.linkedin.com/in/kyurijung",
+        "github": "https://github.com/kyurijung",
+        "resume": "/src/assets/files/KyuriJung.pdf",
+        "email": "mailto:kyuri.jg@gmail.com"
+    },
+    "home": {
         "greeting": "Hi, my name is",
         "name": "Kyuri Jung.",
         "title": "Full-Stack Developer & Designer"
     },
-    "navbar": {
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/kyurijung",
-            "github": "https://github.com/kyurijung",
-            "resume": "/src/assets/files/KyuriJung.pdf",
-            "email": "mailto:kyuri.jg@gmail.com"
-        }
-    },
     "footer": {
-        "text": "© 2025 kyurijung.github.io by Kyuri Jung",
         "link": "https://github.com/kyurijung/kyurijung.github.io"
     }
 }
