@@ -1,82 +1,25 @@
 import data from "/src/data/projects";
 
-import ImageOutline from "/src/components/home/ImageOutline";
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink } from "@fortawesome/free-solid-svg-icons"
+import ProjectBlock from "/src/components/projects/ProjectBlock";
 
 function Projects() {
   return (
-    <div id="projects" className="scroll-mt-18 bg-amber-100 pt-9 pb-13">
-      <div className="">
-        <h2 className="ml-40 leading-none text-[40px] font-bold text-primary">02. projects</h2>
+    <div id="projects" className="scroll-mt-18 pt-10 pb-15">
+      <h2 className="ml-40 mb-15 text-[40px] font-bold text-primary leading-none">{data.sectionName}</h2>
 
-        {/* Project 1 */}
-        <div className="flex flex-row ml-48 mt-13 w-225 items-center justify-between">
-          <ImageOutline imageName="HeartWave" width={14} />
-          <div className="w-120">
-            <a href="https://github.com/kyurijung/heartwave" className="flex items-center gap-2 text-primary hover:text-secondary transition">
-              <h2 className="text-[25px] font-bold">HeartWave</h2>
-              <FontAwesomeIcon
-                icon={faLink}
-                size="lg"
-              />
-            </a>
-            <div className="flex flex-wrap gap-2 text-[20px] font-bold text-secondary">
-              <span>C++</span> • <span>Qt</span> • <span>SQL</span> • <span>Qt Creator</span>
-            </div>
-            <ul className="list-disc ml-4 mt-2 space-y-1 pl-5">
-              <li className="text-primary text-[16px]">
-                Developed a heart rate monitor software with Qt and SQL, integrating real-time biofeedback to measure, analyze, and display elaborate heart rate variability patterns
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Project 2 */}
-        <div className="flex flex-row ml-48 mt-13 w-225 items-center justify-between">
-          <ImageOutline imageName="OrderUp" width={21} />
-          <div className="w-120">
-            <a href="https://github.com/kyurijung/orderup" className="flex items-center gap-2 text-primary hover:text-secondary transition">
-              <h2 className="text-[25px] font-bold">OrderUp</h2>
-              <FontAwesomeIcon
-                icon={faLink}
-                size="lg"
-              />
-            </a>
-            <div className="flex flex-wrap gap-2 text-[20px] font-bold text-secondary">
-              <span>JavaScript</span> • <span>Node.js</span> • <span>HTML/CSS</span> • <span>MongoDB</span>
-            </div>
-            <ul className="list-disc ml-4 mt-2 space-y-1 pl-5">
-              <li className="text-primary text-[16px]">
-                Created a food ordering web app with JavaScript and HTML to execute user logins, display menus, and order items, alongside CSS to enhance UI designs
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Project 3 */}
-        <div className="flex flex-row ml-48 mt-13 w-225 items-center justify-between">
-          <ImageOutline imageName="EasyCart" width={21} />
-          <div className="w-120">
-            <a href="https://github.com/kyurijung/easycart" className="flex items-center gap-2 text-primary hover:text-secondary transition">
-              <h2 className="text-[25px] font-bold">EasyCart</h2>
-              <FontAwesomeIcon
-                icon={faLink}
-                size="lg"
-              />
-            </a>
-            <div className="flex flex-wrap gap-2 text-[20px] font-bold text-secondary">
-              <span>Java</span> • <span>JavaFX</span> • <span>Figma</span>
-            </div>
-            <ul className="list-disc ml-4 mt-2 space-y-1 pl-5">
-              <li className="text-primary text-[16px]">
-                Developed a desktop shopping cart app, using Java and JavaFX to implement menu displays, calculations, and item orders
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <section className="ml-52 space-y-15">
+        {data.projects.map((project, index) => (
+          <ProjectBlock
+            key={index}
+            imageName={project.imageName}
+            width={project.imageWidth}
+            title={project.title}
+            repoUrl={project.link}
+            techStack={project.tech}
+            description={project.description}
+          />
+        ))}
+      </section>
     </div>
   );
 }
