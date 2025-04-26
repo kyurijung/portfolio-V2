@@ -1,5 +1,7 @@
 import data from "/src/data/projects";
 
+import ImageOutline from "/src/components/home/ImageOutline";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from "@fortawesome/free-solid-svg-icons"
 
@@ -11,14 +13,7 @@ function Projects() {
 
         {/* Project 1 */}
         <div className="flex flex-row ml-48 mt-13 w-225 items-center justify-between">
-          <div className="overflow-visible w-fit">
-            <div className="border-4 border-primary w-55 h-fit -mr-3 -mb-3">
-              <img
-                className="w-full relative right-3 bottom-3"
-                src="/src/assets/images/project1.png"
-              />
-            </div>
-          </div>
+          <ImageOutline imageName="HeartWave" width={14} />
           <div className="w-120">
             <a href="https://github.com/kyurijung/heartwave" className="flex items-center gap-2 text-primary hover:text-secondary transition">
               <h2 className="text-[25px] font-bold">HeartWave</h2>
@@ -40,14 +35,7 @@ function Projects() {
 
         {/* Project 2 */}
         <div className="flex flex-row ml-48 mt-13 w-225 items-center justify-between">
-          <div className="overflow-visible w-fit">
-            <div className="border-4 border-primary w-85 h-fit -mr-3 -mb-3">
-              <img
-                className="w-full relative right-3 bottom-3"
-                src="/src/assets/images/project2.png"
-              />
-            </div>
-          </div>
+          <ImageOutline imageName="OrderUp" width={21} />
           <div className="w-120">
             <a href="https://github.com/kyurijung/orderup" className="flex items-center gap-2 text-primary hover:text-secondary transition">
               <h2 className="text-[25px] font-bold">OrderUp</h2>
@@ -69,14 +57,7 @@ function Projects() {
 
         {/* Project 3 */}
         <div className="flex flex-row ml-48 mt-13 w-225 items-center justify-between">
-          <div className="overflow-visible w-fit">
-            <div className="border-4 border-primary w-85 h-fit -mr-3 -mb-3">
-              <img
-                className="w-full relative right-3 bottom-3"
-                src="/src/assets/images/project3.png"
-              />
-            </div>
-          </div>
+          <ImageOutline imageName="EasyCart" width={21} />
           <div className="w-120">
             <a href="https://github.com/kyurijung/easycart" className="flex items-center gap-2 text-primary hover:text-secondary transition">
               <h2 className="text-[25px] font-bold">EasyCart</h2>

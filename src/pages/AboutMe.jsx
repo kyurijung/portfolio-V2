@@ -1,5 +1,7 @@
 import data from "/src/data/about-me";
 
+import ImageOutline from "/src/components/home/ImageOutline";
+
 function AboutMe() {
   return (
     <div id="about" className="scroll-mt-18 bg-amber-100 pt-9 pb-13">
@@ -14,14 +16,7 @@ function AboutMe() {
               {data.hobbies}
             </text>
           </div>
-          <div className="overflow-visible w-fit">
-            <div className="border-4 border-primary w-75 h-fit -mr-3 -mb-3">
-              <img
-                className="w-full relative right-3 bottom-3"
-                src="/src/assets/images/portrait.png"
-              />
-            </div>
-          </div>
+          <ImageOutline imageName="Portrait" width={19} />
         </div>
       </div>
     </div>
