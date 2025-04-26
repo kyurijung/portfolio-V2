@@ -25,11 +25,11 @@ function ProjectBlock({
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-primary hover:text-secondary transition"
         >
-          <h2 className="text-[25px] font-bold">{title}</h2>
+          <h2 className="text-subheading1 font-bold">{title}</h2>
           <FontAwesomeIcon icon={faLink} size="lg" />
         </a>
 
-        <div className="flex flex-wrap gap-2 text-[20px] font-bold text-secondary">
+        <div className="flex flex-wrap gap-2 text-subheading2 font-bold text-secondary">
           {techStack.map((tech, index) => (
             <React.Fragment key={tech}>
               {index > 0 && ' • '}
@@ -39,7 +39,7 @@ function ProjectBlock({
         </div>
 
         <ul className="mt-2 list-disc pl-5">
-          <li className="text-primary text-[16px]">
+          <li className="text-primary text-body2">
             {description}
           </li>
         </ul>

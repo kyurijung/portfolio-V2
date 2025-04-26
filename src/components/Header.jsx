@@ -10,7 +10,7 @@ function Header() {
           <li key={index}>
             <a 
               href={`#${item.anchorLink}`}
-              className="hover:text-secondary transition"
+              className="text-body2 hover:text-secondary transition"
             >
               {item.title}
             </a>

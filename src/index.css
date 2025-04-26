@@ -13,4 +13,12 @@
     --color-background: #F2ECE7;
     --color-primary: #1A274B;
     --color-secondary: #A94D0F;
+
+    --text-heading: 40px;
+    --text-subheading1: 25px;
+    --text-subheading2: 20px;
+    --text-subheading3: 18px;
+    --text-body1: 18px;
+    --text-body2: 16px;
+    --text-caption: small;
 }

@@ -10,7 +10,7 @@ function NavBarItem({ icon, to }) {
       rel="noopener noreferrer"
       className="flex items-center justify-center h-14 w-14 rounded-full bg-primary hover:bg-secondary transition"
     >
-      <FontAwesomeIcon icon={icon} className="fa-xl text-white" />
+      <FontAwesomeIcon icon={icon} size="xl" className="text-white" />
     </a>
   );
 }
