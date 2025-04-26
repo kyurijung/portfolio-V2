@@ -4,10 +4,19 @@ function Footer() {
   const footer = data.footer
 
   return (
-    <div id="footer" className="pt-5 h-25 flex justify-end">
+    <div className="pt-5 flex justify-end h-25">
       <hr className="absolute left-1/2 -translate-x-1/2 w-[75%]"></hr>
-      <p className="absolute mt-3 pr-[13%] text-sm text-primary">
-        © 2025 <a href={footer.link} className="underline">kyurijung.github.io</a> by Kyuri Jung
+      <p className="absolute pt-3 pr-[13%] text-sm text-primary">
+        © {footer.year}{' '}
+        <a
+          href={footer.url}
+          target="_blank"
+          rel="noopener noreferrer" 
+          className="underline"
+        >
+          {footer.website}
+        </a>{' '}
+        by {footer.author}
       </p>
     </div>
   );

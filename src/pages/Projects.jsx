@@ -14,7 +14,7 @@ function Projects() {
             imageName={project.imageName}
             width={project.imageWidth}
             title={project.title}
-            repoUrl={project.link}
+            repoUrl={project.url}
             techStack={project.tech}
             description={project.description}
           />

@@ -5,7 +5,7 @@
             "title": "HeartWave",
             "imageName": "HeartWave",
             "imageWidth": 14,
-            "link": "https://github.com/kyurijung/heartwave",
+            "url": "https://github.com/kyurijung/heartwave",
             "tech": [
                 "C++",
                 "Qt",
@@ -18,7 +18,7 @@
             "title": "OrderUp",
             "imageName": "OrderUp",
             "imageWidth": 21,
-            "link": "https://github.com/kyurijung/orderup",
+            "url": "https://github.com/kyurijung/orderup",
             "tech": [
                 "JavaScript",
                 "Node.js",
@@ -32,7 +32,7 @@
             "title": "EasyCart",
             "imageName": "EasyCart",
             "imageWidth": 21,
-            "link": "https://github.com/kyurijung/easycart",
+            "url": "https://github.com/kyurijung/easycart",
             "tech": [
                 "Java",
                 "JavaFX",
