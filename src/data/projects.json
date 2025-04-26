@@ -1,4 +1,5 @@
 {
+    "sectionName": "02. projects",
     "projects": [
         {
             "title": "HeartWave",
@@ -39,6 +40,5 @@
             ],
             "description": "Developed a desktop shopping cart app, using Java and JavaFX to implement menu displays, calculations, and item orders"
         }
-    ],
-    "sectionName": "02. projects"
+    ]
 }
