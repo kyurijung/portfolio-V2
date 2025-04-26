@@ -3,6 +3,7 @@
     "experience": [
         {
             "company": "Warner Bros. Discovery",
+            "url": "https://www.wbd.com/",
             "roles": [
                 {
                     "title": "Software Developer I",
@@ -38,6 +39,7 @@
         },
         {
             "company": "Canada Energy Regulator",
+            "url": "https://www.cer-rec.gc.ca/en/index.html",
             "roles": [
                 {
                     "title": "Web Content Developer",
@@ -58,6 +60,7 @@
         },
         {
             "company": "Google Developer Student Club",
+            "url": "https://gdsccarleton.github.io/",
             "roles": [
                 {
                     "title": "Lead Designer",
@@ -72,6 +75,7 @@
         },
         {
             "company": "Technolgap",
+            "url": "https://technolgap.org/",
             "roles": [
                 {
                     "title": "Student Mentor",

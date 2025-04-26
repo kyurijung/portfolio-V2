@@ -1,5 +1,8 @@
 import data from "/src/data/experience";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink } from "@fortawesome/free-solid-svg-icons"
+
 function Experience() {
   return (
     <div id="experience" className="scroll-mt-18 bg-blue-200 pt-9 pb-9">
@@ -8,7 +11,15 @@ function Experience() {
         <div>
           <div className="ml-48 mt-7">
             {/* Experience 1 */}
-            <h2 className="text-[25px] font-bold text-primary">{data.experience[0].company}</h2>
+            <a
+              href={data.experience[0].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-primary hover:text-secondary transition"
+            >
+              <h2 className="text-[25px] font-bold">{data.experience[0].company}</h2>
+              <FontAwesomeIcon icon={faLink} size="lg" />
+            </a>
             <div className="flex w-225 items-baseline justify-between">
               <h3 className="text-[20px] font-bold text-secondary">Software Developer I</h3>
               <h3 className="text-[18px] font-medium text-primary">January 2024 - Present</h3>
@@ -51,7 +62,15 @@ function Experience() {
         <div>
           {/* Experience 3 */}
           <div className="ml-48 mt-7">
-            <h2 className="text-[25px] font-bold text-primary">Canada Energy Regulator</h2>
+            <a
+              href={data.experience[1].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-primary hover:text-secondary transition"
+            >
+              <h2 className="text-[25px] font-bold">{data.experience[1].company}</h2>
+              <FontAwesomeIcon icon={faLink} size="lg" />
+            </a>
             <div className="flex w-225 items-baseline justify-between">
               <h3 className="text-[20px] font-bold text-secondary">Web Content Developer</h3>
               <h3 className="text-[18px] font-medium text-primary">January 2021 - April 2021</h3>
@@ -75,7 +94,15 @@ function Experience() {
         <div>
           {/* Experience 4 */}
           <div className="ml-48 mt-7">
-            <h2 className="text-[25px] font-bold text-primary">Google Developer Student Club</h2>
+            <a
+              href={data.experience[2].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-primary hover:text-secondary transition"
+            >
+              <h2 className="text-[25px] font-bold">{data.experience[2].company}</h2>
+              <FontAwesomeIcon icon={faLink} size="lg" />
+            </a>
             <div className="flex w-225 items-baseline justify-between">
               <h3 className="text-[20px] font-bold text-secondary">Lead Designer</h3>
               <h3 className="text-[18px] font-medium text-primary">September 2021 - April 2022</h3>
@@ -91,7 +118,15 @@ function Experience() {
         <div>
           {/* Experience 5 */}
           <div className="ml-48 mt-7">
-            <h2 className="text-[25px] font-bold text-primary">Technolgap</h2>
+            <a
+              href={data.experience[2].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-primary hover:text-secondary transition"
+            >
+              <h2 className="text-[25px] font-bold">{data.experience[2].company}</h2>
+              <FontAwesomeIcon icon={faLink} size="lg" />
+            </a>
             <div className="flex w-225 items-baseline justify-between">
               <h3 className="text-[20px] font-bold text-secondary">Student Mentor</h3>
               <h3 className="text-[18px] font-medium text-primary">August 2020 - April 2021</h3>
