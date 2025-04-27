@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* Apply gloabl styles */
 @layer base {
     html {
         scroll-behavior: smooth;
@@ -9,6 +10,7 @@
     }
 }
 
+/* Design tokens */
 @theme {
     --color-background: #F2ECE7;
     --color-primary: #1A274B;
