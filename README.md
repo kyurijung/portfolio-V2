@@ -1,8 +1,32 @@
-# React + Vite
+# 🌟 Kyuri's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Vite](https://img.shields.io/badge/Vite-4.0+-brightgreen)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-18+-blue)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0+-06B6D4)](https://tailwindcss.com/)
 
-Currently, two official plugins are available:
+My portfolio website built with React + Tailwind and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Project Screenshot](/src/assets/images/Thumbnail.png)
+
+## ✨ Key Features
+
+| Feature             | Description                                               |
+|---------------------|---------------------------------------------------------- |
+| 🎨 Design System    | Tailwind CSS with custom design tokens                    |
+| 📱 Fully Responsive | Mobile-first layouts with responsive breakpoints          |
+| 🌓 Dark Mode        | Toggle dark/light theme                                   |
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js v18+
+- Git
+
+### Installation
+```bash
+git clone https://github.com/kyurijung/kyurijung.github.io.git
+cd kyurijung.github.io
+npm install
+npm run dev
+```
+Access at: http://localhost:5173
