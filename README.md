@@ -20,6 +20,7 @@ My portfolio website built with React + Tailwind and Vite.
 
 ### Prerequisites
 - Node.js v18+
+- npm v9+
 - Git
 
 ### Installation
